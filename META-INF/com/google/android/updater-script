@@ -1,4 +1,4 @@
-ui_print("Welcome to CyanogenMod-6.1.0-Ideos!-(ALPHA-0.11)");
+ui_print("Welcome to Dev Team's Cyanoman");
 
 package_extract_file("system/bin/backuptool.sh", "/tmp/backuptool.sh");
 set_perm(0, 0, 0777, "/tmp/backuptool.sh");
