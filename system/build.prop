@@ -143,4 +143,3 @@ ro.config.nocheckin=true
 # Dalvik VM heap size
 dalvik.vm.execution-mode=int:jit
 dalvik.vm.heapsize=32m
-dalvik.vm.execution-mode=int:fast

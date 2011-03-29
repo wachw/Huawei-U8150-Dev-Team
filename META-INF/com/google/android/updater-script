@@ -13,7 +13,7 @@ ui_print(" ");
 ui_print(" ");
 ui_print("***********************");
 ui_print("Froyoman by The Ideos Dev Team");
-ui_print("Release 1");
+ui_print("Version 2");
 ui_print("INSTALLATION begins now");
 ui_print("***********************");
 ui_print(" ");
