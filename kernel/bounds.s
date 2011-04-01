@@ -13,7 +13,7 @@
 @	compiled by GNU C version 4.3.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ options passed:  -nostdinc -Iinclude
-@ -I/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include
+@ -I/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include
 @ -Iarch/arm/mach-msm/include -iprefix
 @ /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.1/
 @ -isysroot /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/../arm-none-eabi
@@ -478,6 +478,8 @@ foo:
 	.ascii	"PG_uptodate\000"
 .LASF0:
 	.ascii	"signed char\000"
+.LASF49:
+	.ascii	"/home/lalit/Huawei-U8150-Dev-Team/kernel\000"
 .LASF6:
 	.ascii	"long long unsigned int\000"
 .LASF26:
@@ -496,8 +498,6 @@ foo:
 	.ascii	"short unsigned int\000"
 .LASF35:
 	.ascii	"PG_checked\000"
-.LASF49:
-	.ascii	"/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo\000"
 .LASF8:
 	.ascii	"char\000"
 .LASF42:

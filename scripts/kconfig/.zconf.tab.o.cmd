@@ -15,9 +15,9 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/bits/endian.h \
   /usr/include/bits/byteswap.h \
   /usr/include/xlocale.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
+  /usr/lib/x86_64-linux-gnu/gcc/x86_64-linux-gnu/4.5.2/include/stdarg.h \
   /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
+  /usr/lib/x86_64-linux-gnu/gcc/x86_64-linux-gnu/4.5.2/include/stddef.h \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
@@ -42,7 +42,7 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/bits/string.h \
   /usr/include/bits/string2.h \
   /usr/include/bits/string3.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h \
+  /usr/lib/x86_64-linux-gnu/gcc/x86_64-linux-gnu/4.5.2/include/stdbool.h \
   scripts/kconfig/lkc.h \
     $(wildcard include/config/list.h) \
   scripts/kconfig/expr.h \
@@ -58,8 +58,8 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h \
+  /usr/lib/x86_64-linux-gnu/gcc/x86_64-linux-gnu/4.5.2/include-fixed/limits.h \
+  /usr/lib/x86_64-linux-gnu/gcc/x86_64-linux-gnu/4.5.2/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/local_lim.h \

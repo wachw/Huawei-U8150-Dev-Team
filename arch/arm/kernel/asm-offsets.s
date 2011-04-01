@@ -13,7 +13,7 @@
 @	compiled by GNU C version 4.3.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ options passed:  -nostdinc -Iinclude
-@ -I/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include
+@ -I/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include
 @ -Iarch/arm/mach-msm/include -iprefix
 @ /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.1/
 @ -isysroot /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/../arm-none-eabi
@@ -402,12 +402,12 @@ main:
 	.text
 .Letext0:
 	.file 2 "include/asm-generic/int-ll64.h"
-	.file 3 "/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include/asm/posix_types.h"
+	.file 3 "/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include/asm/posix_types.h"
 	.file 4 "include/linux/types.h"
 	.file 5 "include/linux/capability.h"
 	.file 6 "include/linux/time.h"
 	.file 7 "include/linux/sched.h"
-	.file 8 "/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include/asm/processor.h"
+	.file 8 "/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include/asm/processor.h"
 	.file 9 "include/linux/list.h"
 	.file 10 "include/linux/spinlock_types_up.h"
 	.file 11 "include/linux/spinlock_types.h"
@@ -419,14 +419,14 @@ main:
 	.file 17 "include/linux/wait.h"
 	.file 18 "include/linux/completion.h"
 	.file 19 "include/linux/mm_types.h"
-	.file 20 "/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include/asm/page.h"
-	.file 21 "/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include/asm/mmu.h"
+	.file 20 "/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include/asm/page.h"
+	.file 21 "/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include/asm/mmu.h"
 	.file 22 "include/linux/slab_def.h"
 	.file 23 "include/linux/mm.h"
 	.file 24 "include/asm-generic/cputime.h"
 	.file 25 "include/linux/rcupdate.h"
 	.file 26 "include/linux/sem.h"
-	.file 27 "/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include/asm/signal.h"
+	.file 27 "/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include/asm/signal.h"
 	.file 28 "include/asm-generic/signal-defs.h"
 	.file 29 "include/asm-generic/siginfo.h"
 	.file 30 "include/linux/signal.h"
@@ -442,7 +442,7 @@ main:
 	.file 40 "include/linux/hrtimer.h"
 	.file 41 "include/linux/cred.h"
 	.file 42 "include/linux/vmstat.h"
-	.file 43 "/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/arch/arm/include/asm/hwcap.h"
+	.file 43 "/home/lalit/Huawei-U8150-Dev-Team/kernel/arch/arm/include/asm/hwcap.h"
 	.file 44 "include/linux/kernel.h"
 	.file 45 "include/linux/timex.h"
 	.file 46 "include/linux/gfp.h"
@@ -7782,8 +7782,8 @@ main:
 	.ascii	"switched_to\000"
 .LASF603:
 	.ascii	"high_memory\000"
-.LASF607:
-	.ascii	"/home/lalit/Downloads/kernel-2.6.32-U8150-Froyo\000"
+.LASF13:
+	.ascii	"__kernel_size_t\000"
 .LASF496:
 	.ascii	"signal_struct\000"
 .LASF365:
@@ -7964,6 +7964,8 @@ main:
 	.ascii	"coublock\000"
 .LASF75:
 	.ascii	"stime\000"
+.LASF607:
+	.ascii	"/home/lalit/Huawei-U8150-Dev-Team/kernel\000"
 .LASF48:
 	.ascii	"cpus_allowed\000"
 .LASF599:
@@ -8722,8 +8724,6 @@ main:
 	.ascii	"array\000"
 .LASF512:
 	.ascii	"cutime\000"
-.LASF13:
-	.ascii	"__kernel_size_t\000"
 .LASF189:
 	.ascii	"pgd_t\000"
 .LASF581:
